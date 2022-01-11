@@ -1,0 +1,519 @@
+@media screen and (max-width: 600px) {
+  header nav .navbar ul {
+    position: absolute;
+    right: -600px;
+  }
+  header nav .navbar .hamburger-icon {
+    display: block !important;
+  }
+  header nav .navbar input#hamburger-icon:checked ~ ul {
+    right: 0;
+    width: 80%;
+    padding: 25px 0;
+  }
+  header nav .navbar input#hamburger-icon:checked ~ ul li {
+    margin-top: 15px;
+  }
+  header nav .navbar input#hamburger-icon:checked ~ ul li:last-child {
+    display: none;
+  }
+  header nav ul li a {
+    font-size: 18px;
+  }
+  header .header-desc h1 {
+    font-size: 24px;
+  }
+  header .header-desc p {
+    font-size: 16px;
+  }
+  #our-story .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #our-story .story-desc h2 {
+    width: 215px;
+  }
+  #our-story .story-desc p {
+    font-size: 12px;
+    line-height: 18px;
+    width: 150%;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  #our-story .story-img img {
+    width: 140%;
+  }
+  #sweet {
+    margin-top: 100px;
+    height: 300px;
+  }
+  #sweet .sweet-desc {
+    margin-top: 90px;
+  }
+  #sweet .sweet-desc h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  #sweet .sweet-desc p {
+    font-size: 12px;
+    line-height: 18px;
+    width: 260px;
+  }
+  #menu .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #menu .menu-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #menu .menu-desc h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  #menu .menu-desc p {
+    width: 260px;
+    font-size: 12px;
+    margin: auto 0;
+    line-height: 18px;
+    margin-bottom: 25px;
+  }
+  #menu .menu-desc a {
+    font-size: 12px;
+    margin-bottom: 60px;
+  }
+  #menu .menu-img {
+    display: flex;
+    justify-content: center;
+  }
+  #menu .menu-img ul.first-parent-ul {
+    width: 300px;
+    margin: auto 0;
+  }
+  #menu .menu-img ul li {
+    width: 150px;
+  }
+  #menu .menu-img img {
+    height: 100px;
+  }
+  #hot {
+    margin-top: 100px;
+    height: 300px;
+  }
+  #hot .hot-title {
+    margin-top: 120px;
+  }
+  #hot .hot-title h3 {
+    font-size: 24px;
+  }
+  #hot .hot-title p {
+    font-size: 12px;
+  }
+  #delight .delight {
+    flex-direction: column;
+  }
+  #delight .delight .delight-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #delight .delight .delight-content h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    width: 200px;
+    margin-bottom: 30px;
+  }
+  #delight .delight .delight-content p {
+    width: 260px;
+    font-size: 12px;
+    margin: auto 0;
+    line-height: 18px;
+  }
+  #delight .delight .delight-img {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+  }
+  #delight .delight .delight-img img {
+    width: 150px;
+    height: 190px;
+  }
+  #footer .container{
+    margin-bottom: 300px;
+  }
+  #footer .footer .footer-about h3 {
+    font-size: 24px;
+  }
+  #footer .footer .footer-about p{
+    font-size: 12px;
+  }
+  #footer .footer .contact-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #footer .footer .contact-us .news-latter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 280px;
+  }
+  #footer .footer .contact-us .news-latter h3{
+    font-size: 24px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  #footer .footer .contact-us .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  #footer .footer .contact-us .social h3{
+    width: 300px;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  #footer .copy-right h1 {
+    font-size: 25px;
+  }
+  #footer .copy-right p{
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  header nav .navbar ul {
+    position: absolute;
+    right: -600px;
+  }
+  header nav .navbar .hamburger-icon {
+    display: block !important;
+  }
+  header nav .navbar input#hamburger-icon:checked ~ ul {
+    right: 0;
+    width: 80%;
+    padding: 15px 0;
+  }
+  header nav .navbar input#hamburger-icon:checked ~ ul li {
+    margin-top: 15px;
+  }
+  header nav .navbar input#hamburger-icon:checked ~ ul li:last-child {
+    display: none;
+  }
+  header .header-desc h1 {
+    font-size: 32px;
+  }
+  header .header-desc p {
+    font-size: 18px;
+  }
+  #our-story .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #our-story .story-desc h2 {
+    width: 85%;
+  }
+  #our-story .story-desc p {
+    width: 150%;
+    padding: 0;
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+  #our-story .story-img img {
+    width: 140%;
+  }
+  #sweet {
+    margin-top: 100px;
+    height: 400px;
+  }
+  #sweet .sweet-desc {
+    margin-top: 120px;
+  }
+  #sweet .sweet-desc h3 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  #sweet .sweet-desc p {
+    font-size: 16px;
+    width: 400px;
+  }
+  #menu .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #menu .menu-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #menu .menu-desc h3 {
+    margin-top: 20px;
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  #menu .menu-desc p {
+    width: 400px;
+    font-size: 16px;
+    margin: auto 0;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+  #menu .menu-desc a {
+    font-size: 16px;
+    margin-bottom: 80px;
+  }
+  #menu .menu-img {
+    display: flex;
+    justify-content: center;
+  }
+  #menu .menu-img ul.first-parent-ul {
+    width: 500px;
+    margin: auto 0;
+  }
+  #menu .menu-img ul li {
+    width: 250px;
+  }
+  #menu .menu-img img {
+    height: 180px;
+  }
+  #hot {
+    margin-top: 130px;
+  }
+  #hot .hot-title h3 {
+    font-size: 35px;
+  }
+  #hot .hot-title p {
+    font-size: 16px;
+  }
+  #delight .delight {
+    flex-direction: column;
+  }
+  #delight .delight .delight-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #delight .delight .delight-content h3 {
+    font-size: 35px;
+    margin-top: 10px;
+    width: 300px;
+    margin-bottom: 30px;
+  }
+  #delight .delight .delight-content p {
+    width: 400px;
+    font-size: 16px;
+    margin: auto 0;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+  #delight .delight .delight-img {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+  }
+  #delight .delight .delight-img img {
+    width: 250px;
+    height: 320px;
+  }
+  #footer .footer .footer-about h3 {
+    font-size: 24px;
+  }
+  #footer .footer .footer-about p{
+    font-size: 12px;
+  }
+  #footer .footer .contact-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #footer .footer .contact-us .news-latter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 280px;
+  }
+  #footer .footer .contact-us .news-latter h3{
+    font-size: 24px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  #footer .footer .contact-us .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  #footer .footer .contact-us .social h3{
+    width: 300px;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  #footer .copy-right {
+    margin-top: 300px;
+  }
+  #footer .copy-right h1 {
+    font-size: 25px;
+  }
+  #footer .copy-right p{
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  header nav .navbar input#hamburger-icon:checked ~ ul {
+    margin-top: 15px;
+  }
+  #our-story .story-desc h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  #our-story .story-desc p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  #sweet {
+    margin-top: 20px;
+  }
+  #sweet .sweet-desc {
+    margin-top: 190px;
+  }
+  #sweet .sweet-desc h3 {
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
+  #sweet .sweet-desc p {
+    font-size: 20px;
+    width: 600px;
+  }
+  #menu {
+    margin-top: 50px;
+  }
+  #menu .menu-desc h3 {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+  #menu .menu-desc p {
+    font-size: 15px;
+    width: 315px;
+    line-height: 23px;
+  }
+  #menu .menu-desc a {
+    font-size: 15px;
+  }
+  #menu .menu-img img {
+    height: 125px;
+  }
+  #hot {
+    margin-top: 120px;
+  }
+  #hot .hot-title h3 {
+    font-size: 45px;
+  }
+  #hot .hot-title p {
+    font-size: 20px;
+  }
+  #delight .delight .delight-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #delight .delight .delight-content h3 {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  #delight .delight .delight-content p {
+    font-size: 15px;
+  }
+  #delight .delight .delight-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #delight .delight .delight-img img {
+    width: 170px;
+    height: 220px;
+  }
+  #footer .footer .footer-about h3 {
+    font-size: 25px;
+  }
+  #footer .footer .footer-about p{
+    width: 400px;
+  }
+  #footer .footer .contact-us {
+    margin-top: 100px;
+  }
+  #footer .footer .contact-us .news-latter h3{
+    font-size: 24px;
+  }
+  #footer .footer .contact-us .news-latter {
+    margin-left: 150px;
+  }
+  #footer .footer .contact-us .social h3{
+font-size: 24px;
+width: 190px;
+  }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #our-story {
+    width: 100%;
+    height: 510px;
+    padding: 100px 0;
+  }
+  #menu{
+    margin-top: 50px;
+  }
+  #menu .menu-desc h3{
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  #menu .menu-desc p {
+    font-size: 18px;
+    width: 400px;
+    line-height: 23px;
+  }
+  #menu .menu-desc a {
+    font-size: 15px;
+  }
+  #menu .menu-img img {
+    height: 166px;
+  }
+  #delight .delight .delight-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #delight .delight .delight-content h3 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  #delight .delight .delight-content p {
+    font-size: 18px;
+  }
+  #delight .delight .delight-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #delight .delight .delight-img img {
+    width: 220px;
+    height: 300px;
+}
